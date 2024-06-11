@@ -1,0 +1,34 @@
+﻿
+<div class="row">
+    <h4>Търсене на продукт по име</h4>
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResults">
+
+            <div class="form-group">
+                <label for="SearchPhrase" class="control-label"></label>
+                <input name="SearchPhrase" class="form-control" />
+
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Търсене" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+    <h4>Търсене на продукт по категория</h4>
+    <div class="col-md-4">
+        <form asp-action="ShowSearchResultsCategory">
+
+            <div class="form-group">
+                <label for="SearchPhrase" class="control-label"></label>
+                <input name="SearchPhrase" class="form-control" />
+
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Търсене" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
